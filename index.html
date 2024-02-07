@@ -10,19 +10,21 @@
     <h1 class="Title">facebook</h1>
     <h2>Entrar no Facebook</h2>
     <div class="container">
-      
-    
         <form id="dados">
-        <br><br><input type="text" id="email" placeholder="Email ou telefone">
-        <br><br><input type="text" id="senha" placeholder="Senha">
-        <input type="button" value="Entrar" id="btn">
-        <a style="margin-top: 10px; display: flex; justify-content: center;" href="">Esqueceu a conta?</a>
-        <br>
-       <input type="button" value="Criar nova conta" id="btn2">
 
+        <br><br><input type="text" id="email" placeholder="Email ou telefone">
+        <br><br><input type="password" id="senha" name="pass" placeholder="Senha" minlength="8" required>
+        
+        <input type="submit" value="Entrar" id="btn"/>
+
+        <a class="esqueceu" href="" >Esqueceu a conta?</a>
+        <h3> ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  ou ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ </h3>
+       <input type="submit" value="Criar nova conta" id="btn2"/>    
+      
     </form>
-  
+
    </div>
    
 </body>
+<script src="script.js"></script>
 </html>
