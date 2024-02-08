@@ -54,10 +54,9 @@ h2{
     border-color: #42B72A;
     background-color:  #42B72A;
     border-radius: 10px ;
-    width: 160px;
+    width: 168px;
     height: 49px;
-    margin-right: 26px;
-    margin-left: 139px;
+    margin: 31%;
     margin-top: 10px;
     color: rgb(255, 255, 255);
 }
@@ -95,6 +94,7 @@ color: #1877F2;
 margin-top: 10px; 
 display: flex; 
 justify-content: center;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 a:hover{
   text-decoration: underline;
