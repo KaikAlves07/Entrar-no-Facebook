@@ -113,6 +113,12 @@ a:hover{
     margin: 0 auto;
  
 }
+#mensagemErro{
+    margin-left: 8%; 
+    color: red; 
+    display: none;
+}
+
 @media screen and (max-width: 520px){
    .Title{
     display: flex;
