@@ -117,6 +117,8 @@ a:hover{
     margin-left: 8%; 
     color: red; 
     display: none;
+    font-family: Helvetica;
+    font-size: 11px;
 }
 
 @media screen and (max-width: 520px){
